@@ -1,6 +1,6 @@
 ### Hi there! 👋
 
-> A template created to be reused in some projects saving a lot of time and make our lives easier. Modified from this [repository](https://github.com/giovannalinda/next-typescript-template). 🤍
+> A template created to be reused in some projects saving a lot of time and make our lives easier 🤍
 
 ## What is inside?
 
