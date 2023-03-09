@@ -17,4 +17,3 @@ module.exports = createJestConfig({
     collectCoverage: true,
     collectCoverageFrom: ["src/**/*.ts(x)?"],
 });
-

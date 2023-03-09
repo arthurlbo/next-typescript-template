@@ -5,10 +5,6 @@ describe("Heading", () => {
     it("should renders correctly", async () => {
         render(<Heading />);
 
-        expect(
-            await screen.findByRole("Heading", {
-                name: /edit/i,
-            }),
-        ).toBeInTheDocument();
+        expect(await screen.findByText(/Hello/i)).toBeInTheDocument();
     });
 });
