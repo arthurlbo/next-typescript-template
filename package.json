@@ -1,0 +1,80 @@
+{
+    "name": "next-typescript-template",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "prettier:check": "prettier -c",
+        "lint:fix": "yarn lint --fix",
+        "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+        "prepare": "husky install",
+        "commit": "git-cz",
+        "test": "jest --maxWorkers=50% --passWithNoTests",
+        "test:watch": "jest --maxWorkers=50% --passWithNoTests --watch",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook"
+    },
+    "dependencies": {
+        "next": "13.2.3",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "styled-components": "^5.3.8"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.0",
+        "@commitlint/cli": "^17.4.4",
+        "@commitlint/config-conventional": "^17.4.4",
+        "@storybook/addon-actions": "^6.5.16",
+        "@storybook/addon-essentials": "^6.5.16",
+        "@storybook/addon-interactions": "^6.5.16",
+        "@storybook/addon-links": "^6.5.16",
+        "@storybook/builder-webpack5": "^6.5.16",
+        "@storybook/manager-webpack5": "^6.5.16",
+        "@storybook/react": "^6.5.16",
+        "@storybook/testing-library": "^0.0.13",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^14.0.0",
+        "@testing-library/react-hooks": "^8.0.1",
+        "@testing-library/user-event": "^14.4.3",
+        "@types/node": "^18.14.6",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@types/styled-components": "^5.1.26",
+        "@typescript-eslint/eslint-plugin": "^5.54.1",
+        "@typescript-eslint/parser": "^5.54.1",
+        "babel-loader": "^9.1.2",
+        "babel-plugin-styled-components": "^2.0.7",
+        "commitizen": "^4.3.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "eslint": "^8.35.0",
+        "eslint-config-next": "^13.2.3",
+        "eslint-config-prettier": "^8.7.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-storybook": "^0.6.11",
+        "husky": "^8.0.3",
+        "jest": "^29.5.0",
+        "jest-environment-jsdom": "^29.5.0",
+        "prettier": "^2.8.4",
+        "ts-jest": "^29.0.5",
+        "typescript": "^4.9.5"
+    },
+    "eslintConfig": {
+        "eslintConfig": {
+            "extends": "./.eslintrc.json"
+        }
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
