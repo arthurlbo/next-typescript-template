@@ -13,7 +13,8 @@
         "**/yarn.lock": true,
         "**/dev-dist": true,
         "**/.next": true,
-        "**/.github": true
+        "**/.github": true,
+        "**/.swc": true
     },
     "files.watcherExclude": {
         "**/dist": true
