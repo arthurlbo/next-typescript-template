@@ -60,15 +60,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ```
 └── src
     ├── app
-        ├── components
-        ├── styles
+    ├── components
 ```
 
 | Folder         | Description                                          |
 | ----------     | -------------------------------------------          |
-| **app**        | Pages components                                     |
+| **app**        | Pages                                   |
 | **components** | Pages components                                     |
-| **styles**     | Application styles                                   |
 
 ## Conventions
 
