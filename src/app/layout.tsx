@@ -1,4 +1,4 @@
-import "./styles/globals.css";
+import "./globals.css";
 
 export const metadata = {
     title: "arthurlbo | Next TypeScript Template",

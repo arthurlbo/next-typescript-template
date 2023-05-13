@@ -1,4 +1,4 @@
-import { Wrapper, Hello } from "./components";
+import { Wrapper, Hello } from "@/components";
 
 export default function Home() {
     return (
