@@ -7,12 +7,12 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
+        "lint:fix": "next lint --fix",
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build",
         "cypress": "cypress open",
         "test": "cypress run --component",
         "prettier:check": "prettier -c",
-        "lint:fix": "pnpm lint --fix",
         "type-check": "tsc --project tsconfig.json --pretty --noEmit",
         "prepare": "husky install",
         "commit": "git-cz"
