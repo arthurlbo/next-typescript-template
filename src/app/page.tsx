@@ -1,9 +1,10 @@
-import { Wrapper, Hello } from "@/components";
+import { Hello, HeroPattern } from "@/components";
 
 export default function Home() {
     return (
-        <Wrapper>
+        <>
             <Hello />
-        </Wrapper>
+            <HeroPattern />
+        </>
     );
 }
