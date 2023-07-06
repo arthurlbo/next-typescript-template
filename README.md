@@ -8,7 +8,7 @@
 - [ReactJS](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind](https://tailwindcss.com/)
-- [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
+- [Framer Motion](https://www.framer.com/motion)
 - [Cypress](https://www.cypress.io/)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
@@ -76,7 +76,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 └── <MyComponent>
     ├── <MyComponent>.tsx
     ├── <MyComponent>.spec.tsx
-    ├── <MyComponent>.stories.tsx
     └── index.ts
 ```
 
@@ -84,7 +83,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 | --------------- | ---------------------------------------------- |
 | **.tsx**        | Component implementation                       |
 | **.spec.tsx**   | Component tests                                |
-| **.stories.tsx**| Storybook component                            |
 | **index.ts**    | File to export the component                   |
 
 ## Commands
@@ -92,7 +90,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `dev`: run development server
 - `build`: creates the production build version
 - `lint`: runs the linter in all components and pages
-- `storybook`: runs docs with storybook
 - `cypress`: open cypress
 - `test`: run test file
 - `commit`: commit staged changes
