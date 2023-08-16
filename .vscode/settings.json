@@ -5,7 +5,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.foldingImportsByDefault": true,
     "editor.tabSize": 4,
-    "eslint.packageManager": "pnpm",
     "files.exclude": {
         "**/.vscode": false,
         "**/dist": true,
@@ -13,8 +12,7 @@
         "**/pnpm-lock.yaml": true,
         "**/dev-dist": true,
         "**/.next": true,
-        "**/.github": true,
-        "**/.swc": true
+        "**/.github": true
     },
     "files.watcherExclude": {
         "**/dist": true
