@@ -4,16 +4,16 @@
 
 ## What is inside?
 
-- [NextJS](https://nextjs.org/docs)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Tailwind](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion)
-- [Cypress](https://www.cypress.io/)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
-- [Husky](https://github.com/typicode/husky)
-- [Commitlint](https://commitlint.js.org/#/)
+-   [NextJS](https://nextjs.org/docs)
+-   [ReactJS](https://reactjs.org)
+-   [TypeScript](https://www.typescriptlang.org)
+-   [Tailwind](https://tailwindcss.com/)
+-   [Framer Motion](https://www.framer.com/motion)
+-   [Cypress](https://www.cypress.io/)
+-   [Eslint](https://eslint.org)
+-   [Prettier](https://prettier.io)
+-   [Husky](https://github.com/typicode/husky)
+-   [Commitlint](https://commitlint.js.org/#/)
 
 ## Getting Started
 
@@ -63,10 +63,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     ├── components
 ```
 
-| Folder         | Description                                          |
-| ----------     | -------------------------------------------          |
-| **app**        | Pages                                   |
-| **components** | Pages components                                     |
+| Folder         | Description      |
+| -------------- | ---------------- |
+| **app**        | Pages            |
+| **components** | Pages components |
 
 ## Conventions
 
@@ -79,19 +79,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     └── index.ts
 ```
 
-| Files           | Description                                    |
-| --------------- | ---------------------------------------------- |
-| **.tsx**        | Component implementation                       |
-| **.spec.tsx**   | Component tests                                |
-| **index.ts**    | File to export the component                   |
+| Files         | Description                  |
+| ------------- | ---------------------------- |
+| **.tsx**      | Component implementation     |
+| **.spec.tsx** | Component tests              |
+| **index.ts**  | File to export the component |
 
 ## Commands
 
-- `dev`: run development server
-- `build`: creates the production build version
-- `lint`: runs the linter in all components and pages
-- `cypress`: open cypress
-- `test`: run test file
-- `commit`: commit staged changes
+-   `dev`: run development server
+-   `build`: creates the production build version
+-   `lint`: runs the linter in all components and pages
+-   `cypress`: open cypress
+-   `test`: run test file
+-   `commit`: commit staged changes
 
 <p align="center">Made with 🤍 by Arthur</p>
