@@ -4,20 +4,20 @@
 
 ## What is inside?
 
--   [NextJS](https://nextjs.org/docs)
--   [ReactJS](https://reactjs.org)
--   [TypeScript](https://www.typescriptlang.org)
--   [Tailwind](https://tailwindcss.com/)
--   [Framer Motion](https://www.framer.com/motion)
--   [Cypress](https://www.cypress.io/)
--   [Eslint](https://eslint.org)
--   [Prettier](https://prettier.io)
--   [Husky](https://github.com/typicode/husky)
--   [Commitlint](https://commitlint.js.org/#/)
+- [NextJS](https://nextjs.org/docs)
+- [ReactJS](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion)
+- [Cypress](https://www.cypress.io/)
+- [Eslint](https://eslint.org)
+- [Prettier](https://prettier.io)
+- [Husky](https://github.com/typicode/husky)
+- [Commitlint](https://commitlint.js.org/#/)
 
 ## Getting Started
 
-### Install dependencies:
+### Install dependencies
 
 ```bash
 pnpm install
@@ -58,15 +58,24 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Structure
 
 ```
+└── cypress
+    ├── e2e
 └── src
     ├── app
+    ├── assets
     ├── components
+    ├── lib
+    ├── utils
 ```
 
-| Folder         | Description      |
-| -------------- | ---------------- |
-| **app**        | Pages            |
-| **components** | Pages components |
+| Folder         | Description                                    |
+| -------------- | ---------------------------------------------- |
+| **e2e**        | e2e tests in the app                           |
+| **app**        | Pages                                          |
+| **assets**     | Images and static files for application        |
+| **components** | Pages components                               |
+| **lib**        | Configuration of libraries used in the project |
+| **utils**      | Auxiliary and reusable functions               |
 
 ## Conventions
 
@@ -87,11 +96,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Commands
 
--   `dev`: run development server
--   `build`: creates the production build version
--   `lint`: runs the linter in all components and pages
--   `cypress`: open cypress
--   `test`: run test file
--   `commit`: commit staged changes
+- `dev`: run development server
+- `build`: creates the production build version
+- `lint`: runs the linter in all components and pages
+- `cypress`: open cypress
+- `format`: format the files.
+- `component-test`: run all the component tests.
+- `e2e-test`: run all the e2e tests.
+- `commit`: commit staged changes
 
 <p align="center">Made with 🤍 by Arthur</p>
