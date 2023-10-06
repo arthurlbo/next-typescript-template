@@ -12,7 +12,7 @@
         "**/pnpm-lock.yaml": true,
         "**/dev-dist": true,
         "**/.next": true,
-        "**/.github": true
+        "**/.github": false
     },
     "files.watcherExclude": {
         "**/dist": true
